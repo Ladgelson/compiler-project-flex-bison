@@ -1,0 +1,52 @@
+begin
+	out("Bem vindo ao meu analisador/calculadora.");
+	let a;
+	let b;
+
+	out("Teste de soma: a + b");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out(a+b);
+
+	out("Teste de subtracao: a - b");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out(a-b);
+
+	out("Teste de divisao: a / b");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out(a/b);
+
+	out("Teste de multiplicao: a * b");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out(a*b);
+
+	out("Teste de pot: a ^ b");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out(a ^ b);
+
+	out("Teste de expressao: (a * b) + a ^ b - 10");
+	out("Digite a:");
+	in(a);
+	out("Digite b:");
+	in(b);
+	out((a * b) + a ^ b - 10);
+
+	out("Teste de raiz: sqrt(a)");
+	out("Digite a:");
+	in(a);
+	out(sqrt(a));
+end
